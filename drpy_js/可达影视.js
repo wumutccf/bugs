@@ -1,9 +1,9 @@
 var rule = {
     title: '可达影视',
-    host: 'https://kedays.org',
+    host: 'https://www.kedays.org',
     // url:'/shaixuan/fyclass--------fypage---.html',
     url: '/shaixuan/fyclass-fyfilter.html',
-    searchUrl: '/so/**----------fypage---.html',
+    searchUrl: '/soso/**----------fypage---.html',
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -17,57 +17,10 @@ var rule = {
     cate_exclude: '最近|排行',
     play_parse: true,
     lazy: $js.toString(() => {
-        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
-        log(html)
-        var url = html.url;
-        var from = html.from;
-        if (html.encrypt == '1') {
-            url = unescape(url);
-        } else if (html.encrypt == '2') {
-            url = unescape(base64Decode(url));
-        }
-        log(url)
-        var pconfig = jsp.pdfh(request(rule.parse + url), 'body&&script,0&&Html').match(/config = {[\s\S]*?}/)[0];
-        var config = {};
-        eval(pconfig);
-        let purl = JSON.parse(request(rule.parse.replace('?url=', 'api_config.php'), {
-            headers: {
-                'Origin': HOST
-            },
-            body: 'url=' + config.url + '&time=' + config.time + '&key=' + config.key,
-            method: 'POST'
-        })).url;
-        if (/NBY|BTJSON|CL4K/.test(from)) {
-            let play = JSON.parse(request(purl, {
-                headers: {
-                    'Origin': 'https://kedays.org',
-                    'Host': 'cdn.suxun.site',
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
-                },
-                redirect: false,
-                withHeaders: true
-            })).location;
-            input = {parse: 0, url: play, js: ''};
-        } else {
-            let play = JSON.parse(request(purl, {
-                headers: {
-                    'Origin': 'https://kedays.org',
-                    'Host': 'cdn.suxun.site',
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
-                },
-                redirect: false,
-                withHeaders: true
-            })).location;
-            let video = JSON.parse(request(play, {
-                headers: {
-                    'Origin': 'https://kedays.org',
-                    'Host': 'cdn.suxun.site',
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
-                },
-                redirect: false,
-                withHeaders: true
-            })).location + '#.m3u8';
-            input = {parse: 0, url: video, js: ''};
+        input = {
+            parse: 1,
+            url: input,
+            js: 'document.querySelector("#playleft iframe").contentWindow.document.querySelector("#player").click()',
         }
     }),
     double: true,
@@ -77,7 +30,7 @@ var rule = {
         title: 'h3&&Text;p.row&&span&&a&&Text',
         img: 'img.lazyload&&data-original',
         desc: 'p.row&&span:eq(-1)&&Text;p.row&&span:eq(2)&&Text;p.row&&span:eq(1)&&Text;p.row&&span:eq(4)&&Text;p.row&&span:eq(3)&&Text;',
-        content: '.more-box&&Text',
+        content: 'div.text-row-2&&Text',
         tabs: '.playlist-tab&&ul&&li',
         lists: '.ewave-playlist-content:eq(#id)&&li',
         tab_text: 'body&&Text',
