@@ -17,7 +17,35 @@ var rule = {
     timeout: 5000,
     class_parse: ".tem_head_meun li;a&&Text;a&&href;id=(\\d+)",
     lazy: $js.toString(() => {
-        input = {parse: 1, url: input, js: ''};
+
+       let file = null;
+       let query = getQuery(input); 
+       let html = request('https://cally66.icu/openapi/playline/'+query.line_id);
+          //https://cally66.icu/openapi/playline/31018
+   let url = JSON5.parse(html).info.file;
+
+
+  //let hconf = html.match(/temLineList = (.*?);\s/)[1];
+  //let json = JSON5.parse(hconf);
+  //json.forEach(it => {
+   // if (it.id == query.line_id) {
+  //    file = it.file; // 更新 file 的值
+  //  }
+   //     })
+
+  //let url = unescape(base64Decode(file.substring(3)));
+
+
+  //log(url)
+  if (/\.(m3u8|mp4|m4a|mp3)/.test(url)) {
+    input = {
+      parse: 0,
+      jx: 0,
+      url: url,
+    };
+  } else {
+    input = url && url.startsWith('http') && tellIsJx(url) ? {parse:0,jx:1,url:url}:input;
+  }
     }),
     double: false,
     推荐: "*",
