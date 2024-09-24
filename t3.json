@@ -4733,7 +4733,7 @@
 			"changeable": 0,
 			"filterable": 0,
 			"timeout": 60,
-			"ext": "./json/tokenm.json$$$./json/sambashare.txt"
+			"ext": "./json/tokenm.json$$$./json/sambashare.template.txt"
 		},
 		{
 			"key": "hipy_js_script直播[飞]",
