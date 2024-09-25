@@ -6,7 +6,7 @@
 	"sites": [
 		{
 			"key": "Local",
-			"name": "本地|更新同步20240921",
+			"name": "本地|更新20240925",
 			"type": 3,
 			"api": "csp_Local"
 		},
@@ -156,6 +156,17 @@
 			"ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集[密]静态.json"
 		},
 		{
+			"key": "hipy_js_直播转点播[合]",
+			"name": "直播转点播[合](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/直播转点播[合].js?type=url&params=../json/live2cms.json"
+		},
+		{
             "key": "hipy_t3_cntv央视[py]",
             "name": "cntv央视[py](hipy_t3)",
             "type": 3,
@@ -260,15 +271,15 @@
 			"ext": "./drpy_js/4K-AV.js"
 		},
 		{
-			"key": "hipy_js_4k剧院",
-			"name": "4k剧院(drpy_t3)",
+			"key": "hipy_js_4K剧院",
+			"name": "4K剧院(drpy_t3)",
 			"type": 3,
 			"api": "./drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./drpy_js/4k剧院.js"
+			"ext": "./drpy_js/4K剧院.js"
 		},
 		{
 			"key": "hipy_js_4khdr",
@@ -2522,6 +2533,17 @@
 			"ext": "./drpy_js/南瓜影视[优].js"
 		},
 		{
+			"key": "hipy_js_泥巴影院",
+			"name": "泥巴影院(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/泥巴影院.js"
+		},
+		{
 			"key": "hipy_js_泥视频[资]",
 			"name": "泥视频[资](drpy_t3)",
 			"type": 3,
@@ -4244,17 +4266,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/掌心世界.js"
-		},
-		{
-			"key": "hipy_js_直播转点播[合]",
-			"name": "直播转点播[合](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/直播转点播[合].js?type=url&params=../json/live2cms.json"
 		},
 		{
 			"key": "hipy_js_至臻[盘]",
