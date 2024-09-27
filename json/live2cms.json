@@ -1,28 +1,8 @@
-[
-  {
-    "name": "GitHub-TXT",
-    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
-    "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
-  },
-  {
-    "name": "GitHub-M3U",
-    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
-    "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
-  },
-  {
-    "name": "CNTV",
-    "url": "./live_cntv.txt",
-    "img": "./lives.jpg"
-  },
+[ 
    {
-    "name": "范冰冰-V6",
+    "name": "范明明IPPV6",
     "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
     "img": "./lives.jpg"
-  },
-  {
-    "name": "1905",
-    "url": "./live_1905.txt",
-    "img": "https://image11.m1905.cn/uploadfile/2022/0510/thumb_1_285_100_20220510030520666149.jpg"
   },
   {
     "name": "南风",
@@ -32,11 +12,6 @@
   {
     "name": "肥猫",
     "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/lives/live.txt",
-    "img": "./lives.jpg"
-  },
-  {
-    "name": "开心频道",
-    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/②Live(EXO).txt",
     "img": "./lives.jpg"
   }
 ]
