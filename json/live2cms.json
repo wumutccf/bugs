@@ -55,23 +55,8 @@
     "img": "./lives.jpg"
   },
   {
-    "name": "live-IPV6",
-    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/leevi0709/one/main/lib/live.ipv6.txt",
-    "img": "./lives.jpg"
-  },
-  {
     "name": "tvlive",
     "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-    "img": "./lives.jpg"
-  },
-  {
-    "name": "YTLive",
-    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/leevi0709/one/main/lib/yo21.txt",
-    "img": "./lives.jpg"
-  },
-  {
-    "name": "FMjson",
-    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
     "img": "./lives.jpg"
   },
   {
