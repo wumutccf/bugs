@@ -1,6 +1,6 @@
 [
   {
-    "name": "IPV4",
+    "name": "itvlistIPV4",
     "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
     "img": "./lives.jpg"
   },
@@ -50,23 +50,33 @@
     "img": "./lives.jpg"
   },
   {
-    "name": "SAO0",
-    "url": "http://我不是.摸鱼儿.top/live.php",
-    "img": "./lives.jpg"
-  },
-  {
-    "name": "pltv",
-    "url": "http://mmitv.top/pltv/merization.php?id=list&user=t0k1b5&token=17af41bb&text=diypbox",
-    "img": "./lives.jpg"
-  },
-  {
     "name": "南风",
     "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
     "img": "./lives.jpg"
   },
   {
-    "name": "电影",
-    "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722589153126/movie.txt",
+    "name": "live-IPV6",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/leevi0709/one/main/lib/live.ipv6.txt",
+    "img": "./lives.jpg"
+  },
+  {
+    "name": "tvlive",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+    "img": "./lives.jpg"
+  },
+  {
+    "name": "YTLive",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/leevi0709/one/main/lib/yo21.txt",
+    "img": "./lives.jpg"
+  },
+  {
+    "name": "FMjson",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+    "img": "./lives.jpg"
+  },
+  {
+    "name": "jundie",
+    "url": "http://home.jundie.top:81/Cat/tv/live.txt",
     "img": "./lives.jpg"
   },
   {
