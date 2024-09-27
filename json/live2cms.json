@@ -1,12 +1,12 @@
 [
   {
     "name": "GitHub-TXT",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
     "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
   },
   {
     "name": "GitHub-M3U",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
     "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
   },
   {
@@ -26,17 +26,17 @@
   },
   {
     "name": "南风",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/南风/lives/live.txt",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/南风/lives/live.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "肥猫",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/lives/live.txt",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/lives/live.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "开心频道",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/开心频道.txt",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/开心频道.txt",
     "img": "./lives.jpg"
   }
 ]
