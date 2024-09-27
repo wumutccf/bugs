@@ -21,12 +21,7 @@
   },
   {
     "name": "GatherTV",
-    "url": "https://tv.iill.top/m3u/Gather",
-    "img": "./lives.jpg"
-  },
-  {
-    "name": "LiveTV",
-    "url": "https://tv.iill.top/m3u/Live",
+    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
     "img": "./lives.jpg"
   },
   {
@@ -70,18 +65,8 @@
     "img": "./lives.jpg"
   },
   {
-    "name": "tvlive",
-    "url": "https://xhdwc.tk/tvlive.txt",
-    "img": "./lives.jpg"
-  },
-  {
     "name": "电影",
     "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722589153126/movie.txt",
-    "img": "./lives.jpg"
-  },
-  {
-    "name": "tvlive",
-    "url": "https://xhdwc.tk/tvlive.txt",
     "img": "./lives.jpg"
   },
   {
