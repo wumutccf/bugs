@@ -6,7 +6,7 @@
 	"sites": [
 		{
 			"key": "Local",
-			"name": "本地|更新20240925",
+			"name": "本地|更新于20241001",
 			"type": 3,
 			"api": "csp_Local"
 		},
@@ -391,6 +391,17 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/88tvs.js"
+		},
+		{
+			"key": "hipy_js_111tv[自动]",
+			"name": "111tv[自动](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/111tv[自动].js"
 		},
 		{
 			"key": "115Share",
@@ -1183,6 +1194,17 @@
 			"ext": "./drpy_js/电影狗.js"
 		},
 		{
+			"key": "hipy_js_电影猎手[自动]",
+			"name": "电影猎手[自动](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/电影猎手[自动].js"
+		},
+		{
 			"key": "hipy_js_电影天堂",
 			"name": "电影天堂(drpy_t3)",
 			"type": 3,
@@ -1667,6 +1689,17 @@
 			"ext": "./drpy_js/花子动漫[漫].js"
 		},
 		{
+			"key": "hipy_js_华视频[资]",
+			"name": "华视频[资](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/华视频[资].js"
+		},
+		{
 			"key": "混合盘",
 			"name": "混合盘|网盘搜索",
 			"type": 3,
@@ -1732,6 +1765,17 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/极速资源[资].js"
+		},
+		{
+			"key": "hipy_js_茄子影视[自动]",
+			"name": "茄子影视[自动](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/茄子影视[自动].js"
 		},
 		{
 			"key": "hipy_js_家庭影视",
