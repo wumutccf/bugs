@@ -3,7 +3,7 @@ var rule = {
     // host: 'http://www.88kq.net/',//发布页
     // host:'http://www.88kanqiu.cc',
     // host: "http://www.88kanqiu.live",
-    host: "http://www.88kanqiu.bar",
+    host: "http://www.88kanqiu.dog",
     url: "/match/fyclass/live",
     searchUrl: "",
     searchable: 0,
