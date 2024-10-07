@@ -4015,17 +4015,6 @@
 			"ext": "./drpy_js/樱之空[漫].js"
 		},
 		{
-			"key": "Hdhive",
-			"name": "影巢|网盘",
-			"type": 3,
-			"api": "csp_Hdhive",
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://www.hdhive.online/$$$noproxy$$$1"
-		},
-		{
 			"key": "hipy_js_影剧星球",
 			"name": "影剧星球(drpy_t3)",
 			"type": 3,
