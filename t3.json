@@ -174,7 +174,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./drpy_py/cntv央视.json"
+            "ext": "./drpy_py/cntv.json"
         },
         {
             "key": "hipy_t3_两个BT[py]",
